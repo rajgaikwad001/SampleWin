@@ -22,7 +22,7 @@ namespace SampleWin
             var a = Convert.ToInt32(textBox1.Text);
             var b = Convert.ToInt32(textBox2.Text);
             var c = a + b;
-            MessageBox.Show(c.ToString());
+            MessageBox.Show(Convert.ToString(c));
         }
     }
 }
