@@ -19,10 +19,10 @@ namespace SampleWin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var a = textBox1.Text;
-            var b = textBox2.Text;
+            var a = Convert.ToInt32(textBox1.Text);
+            var b = Convert.ToInt32(textBox2.Text);
             var c = a + b;
-            MessageBox.Show(c);
+            MessageBox.Show(c.ToString());
         }
     }
 }
